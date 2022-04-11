@@ -14,8 +14,8 @@ script:
 
 after_success:
   - echo "Test success"
- 
- deploy:
+
+deploy:
   provider: elasticbeanstalk
   region: "ap-northeast-2"
   app: "docker-react-app"
